@@ -22,7 +22,7 @@ int main() {
 	char buffer[MAXSIZE];
 
 	//Create pipe
-	int fd[2], byteValue;
+	int fd[2];
 	pipe(fd);
 
 	//Fork
